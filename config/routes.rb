@@ -10,4 +10,8 @@ Rails.application.routes.draw do
 
   get 'dashboard/dash', to: 'dashboard#dash'
 
+  get 'dashboard/signin', to: 'dashboard#signin'
+
+  get 'dashboard/signup', to: 'dashboard#signup'
+
 end
