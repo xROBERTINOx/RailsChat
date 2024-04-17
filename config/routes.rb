@@ -7,4 +7,7 @@ Rails.application.routes.draw do
   end
 
   root 'welcome#index'
+
+  get 'dashboard/dash', to: 'dashboard#dash'
+
 end
